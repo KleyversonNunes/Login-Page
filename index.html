@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Página de Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us</br>please login with your personal info</p>
+            <a href=""><button>SIGN IN</button></a>
+        </div>
+        <div class="registration">
+            <h1>Create Account</h1>
+            <div class="loginExtern">
+                <a href="https://facebook.com"><img src="./icons/facebook.svg" alt="icone facebook" class="icons"></a>
+                <a href="https://linkedin.com"><img src="./icons/linkedin.svg" alt="icone linkedin" class="icons"></a>
+            </div>
+            <p>or use your email for registration:</p>
+
+            <form action="" method="post" class="form-registration">
+                <div class="div-form-registration">
+                    <input type="text" name="name" class="inputName" placeholder="Name" required>
+                    <img src="./icons/profile_icon.svg" alt="" class="icon-form-registrantion">
+                </div>
+                <div class="div-form-registration">
+                    <input type="email" name="email" class="inputEmail" placeholder="Email" autocomplete="username" required>
+                    <img src="./icons/email_icon.svg" alt="" class="icon-form-registrantion icon-email">
+                </div>
+                <div class="div-form-registration">
+                    <input type="password" name="password" class="inputPassword" placeholder="Password" autocomplete="current-password" required>
+                    <img src="./icons/password_icon.svg" alt="" class="icon-form-registrantion icon-password">
+                </div>
+                <button type="submit" class="button-form-registration">SIGN UP</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

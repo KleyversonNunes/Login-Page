@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+}
+
+.login{
+    background-color: #4169E1;
+    width: 40vw;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.login p{
+    color: #B0C4DE;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.login button{
+    margin-top: 1rem;
+    background-color: #4169E1;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.icons{
+    width: 75px;
+    height: 75px;
+}
+
+.registration{
+    background-color: rgb(255, 255, 255);
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.registration h1{
+    color: #4169E1;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+
+.registration p{
+    color: #A9A9A9;
+    margin-bottom: 1.5rem;
+}
+
+.form-registration input{
+    background-color: #EFEFEF;
+    margin-bottom: .5rem;
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    padding: 0 3rem;
+    border-radius: .5rem;
+}
+
+.div-form-registration{
+    position: relative;
+}
+
+.form-registration input:focus{
+    outline-color: #4169E1;
+    
+}
+
+.icon-form-registrantion{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0.8rem;
+    top: .4rem;
+}
+
+.icon-email{
+    top: .5rem;
+}
+
+.icon-password{
+    top: .45rem;
+}
+
+.button-form-registration{
+    margin-top: 1rem;
+    background-color: #4169E1;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width: 730px) {
+    html{
+        font-size: 87.5%;
+    }
+}
+
+@media (max-width: 670px) {
+    .container{
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .login{
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .registration{
+        width: 100vw;
+        height: 70vh;
+    }
+}
+
+@media (max-width: 280px){
+    html{
+        font-size: 75%;
+    }
+}
